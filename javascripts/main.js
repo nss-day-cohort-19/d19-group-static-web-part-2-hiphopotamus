@@ -75,4 +75,3 @@ for(potato in yachts){
 	container.innerHTML += cards;
 	console.log(cards);
 };
-

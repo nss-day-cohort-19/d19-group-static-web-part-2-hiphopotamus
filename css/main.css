@@ -158,7 +158,41 @@ HISTORY
     height: 100vh;
     background-image: url("../images/history-bg.jpg");
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hide {
+    display: none;
+}
+.un-hide{
+    display: all;
+}
+#show-form {
+  background: #757575;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 2.5em;
+  text-decoration: none;
+  opacity: .45;
+  border: none;
+  border-radius: 20%;
+}
 
+#show-form:hover {
+  background: #a4a4a4;
+  text-decoration: none;
+  border: none;
+}
+
+.form-css {
+    display: flex;
+    flex-direction: column;
+    opacity: .6;
+    background-color: #a4a4a4;
+    color: #000000;
+    padding: 2em 10em;
+    border-radius: 20%;
 }
 
 
