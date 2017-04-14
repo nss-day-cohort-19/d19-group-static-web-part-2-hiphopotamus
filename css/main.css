@@ -27,35 +27,66 @@ PRODUCTS
 
 
 .product-layout {
-  display: flex;
-  border-bottom: 1px solid #757575;
-  padding-bottom: 2em;
-  margin-bottom: 2em;
+  position: relative;
+  display: block;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4em;
+  outline-bottom: 1px solid #757575;
+
+}
+
+
+
+.product-image {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 
 
 .product-info{
+  background-color: #fafafa;
+  color: #494949;
   position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   height: 100%;
   width: 100%;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  opacity:.5;
+  opacity: 0;
+  transition: .5s ease;
+
+  opacity:0;
+  transition: .5s ease;
 
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
 }
 
+.product-layout:hover .product-info{
+  opacity: .9;
+}
+
+.product-description{
+  flex-shrink: 1;
+}
 
 .product-title {
   padding-bottom: 1em;
   border-bottom: 1px solid #757575;
 }
 
+
+.price{
+  font-size: 3em;
+  border-top: 1px solid #757575;
+  padding-top: 1em;
+}
 
 
 
