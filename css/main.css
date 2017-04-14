@@ -3,6 +3,7 @@ GLOBAL
 *****************/
 body {
     margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 
@@ -15,7 +16,7 @@ INDEX
 *****************/
 
 div.container {
-    
+
     opacity:0.9;
     background-color:#ccc;
     width:100%;
@@ -45,7 +46,7 @@ footer {
 
 
 .topnav {
-  
+
   overflow: hidden;
   background-color: #333;
 }
@@ -92,7 +93,7 @@ PRODUCTS
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 4em;
-  outline-bottom: 1px solid #757575;
+  margin-top: 2em;
 
 }
 
@@ -122,9 +123,11 @@ PRODUCTS
   transition: .5s ease;
 
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+
 }
 
 .product-layout:hover .product-info{
@@ -132,7 +135,8 @@ PRODUCTS
 }
 
 .product-description{
-  flex-shrink: 1;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .product-title {
