@@ -61,11 +61,13 @@ var container = document.getElementById("container");
 
 
 for(potato in yachts){
-	var cards = `<section>
-				        <h2>${yachts[potato].name}</h2>
-				        <img src="${yachts[potato].image}">
-				        <p>${yachts[potato].description}</p>
-				        <p>${yachts[potato].price}</p>
+	var cards = `<section class="product-layout">
+                  <img class ="product-image" src="${yachts[potato].image}">
+                  <div class="product-info">
+  				          <h2 class="product-title">${yachts[potato].name}</h2>
+  				          <p>${yachts[potato].description}</p>
+  				          <p>${yachts[potato].price}</p>
+                  </div>
 				      </section>`;
 
 	container.innerHTML += cards;

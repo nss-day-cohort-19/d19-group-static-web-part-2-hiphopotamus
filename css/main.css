@@ -26,9 +26,35 @@ PRODUCTS
 
 
 
+.product-layout {
+  display: flex;
+  border-bottom: 1px solid #757575;
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+}
 
 
 
+.product-info{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  opacity:.5;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.product-title {
+  padding-bottom: 1em;
+  border-bottom: 1px solid #757575;
+}
 
 
 
