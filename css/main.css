@@ -107,6 +107,7 @@ PRODUCTS
 
 
 
+
 .product-info{
   background-color: #fafafa;
   color: #494949;
@@ -137,16 +138,19 @@ PRODUCTS
 .product-description{
   padding-left: 2em;
   padding-right: 2em;
+  font-size: 1vw;
+
 }
 
 .product-title {
+  font-size: 2vw;
   padding-bottom: 1em;
   border-bottom: 1px solid #757575;
 }
 
 
 .price{
-  font-size: 3em;
+  font-size: 3vw;
   border-top: 1px solid #757575;
   padding-top: 1em;
 }
