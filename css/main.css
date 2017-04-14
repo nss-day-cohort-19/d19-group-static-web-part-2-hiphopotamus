@@ -250,26 +250,21 @@ header, #content, #middle, #sidebar {
 /****************
 TESTIMONIALS
 *****************/
-.test_body {
-  background-image: : url("history-bg.jpg");
-}
 
 .test_img {
-  position: center;
+  display: inline-block;
   border-radius: 3%;
   width: 225px;
   height: 200px;
-  box-shadow: 10px 10px 8px #a4a4a4a4;
+  float: left;
 }
 
 .test_quote {
   font-size: .75em;
   margin: auto;
   font-style: lighter;
-  padding-top: 15px;
+  padding: 15px 15px;
 }
-
-
 
 
 
