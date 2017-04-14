@@ -15,7 +15,7 @@ INDEX
 *****************/
 
 div.container {
-    
+
     opacity:0.9;
     background-color:#ccc;
     width:100%;
@@ -45,7 +45,7 @@ footer {
 
 
 .topnav {
-  
+
   overflow: hidden;
   background-color: #333;
 }
@@ -123,12 +123,7 @@ PRODUCTS
 HISTORY
 *****************/
 
-#history-bg {
-    height: 100vh;
-    background-image: url("../images/history-bg.jpg");
-    background-size: cover;
 
-}
 
 
 
@@ -142,32 +137,24 @@ HISTORY
 /****************
 TESTIMONIALS
 *****************/
-
-#test_body {
-  background-color: #757575;
+.test_body {
+  background-image: : url("history-bg.jpg");
 }
 
-#test_title {
-  color: #494949;
+.test_img {
+  position: center;
+  border-radius: 3%;
+  width: 225px;
+  height: 200px;
+  box-shadow: 10px 10px 8px #a4a4a4a4;
 }
 
-article {
-  padding: 10px;
+.test_quote {
+  font-size: .75em;
   margin: auto;
-  color: #;
+  font-style: lighter;
+  padding-top: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
