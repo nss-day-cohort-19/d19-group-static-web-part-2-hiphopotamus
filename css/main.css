@@ -178,47 +178,48 @@ HISTORY
 }
 
 #ocean-bg {
+
     height: 100vh;
-    background-image: url("../images/ocean.jpeg");
+    background-image: url("../images/history.jpg");
     background-size: cover;
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+
 
 }
 
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 
-#content {
-    width: 290px;
-    float: left;
-    padding: 5px 15px;
-}
 
 .middle {
-    width: 294px; /* Account for margins + border values */
-    float: left;
-    padding: 5px 15px;
-    margin: 0px 15px 5px 15px;
+
     background-color: white;
     opacity: 0.5;
+    margin:2em 0;
+    max-width: 80%;
+
+}
+
+.middle > h2{
+	padding: 0.5em
+}
+
+.middle > p{
+	padding: 0 1em
+}
+
+.history-footer{
+	display: flex;
+	height: 100%;
+	margin-top: 3em;
 }
 
 
-#sidebar {
-    width: 270px;
-    padding: 5px 15px;
-    float: left;
-}
-
-
-#content {
-    background: #f8f8f8;
-}
-#sidebar {
-    background: #f0efef;
-}
-header, #content, #middle, #sidebar {
-    margin-bottom: 5px;
+header,  #middle {
+    margin-bottom: 0.5em;
 }
 
 
@@ -233,23 +234,25 @@ header, #content, #middle, #sidebar {
 /****************
 TESTIMONIALS
 *****************/
-.test_body {
-  background-image: : url("history-bg.jpg");
+
+#test_body {
+  background-image: url("../images/history.jpg");
+  height: 100vh;
 }
 
 .test_img {
-  position: center;
+  display: inline-block;
   border-radius: 3%;
   width: 225px;
   height: 200px;
-  box-shadow: 10px 10px 8px #a4a4a4a4;
 }
 
 .test_quote {
   font-size: .75em;
   margin: auto;
   font-style: lighter;
-  padding-top: 15px;
+  padding: 15px 15px;
+  color:white;
 }
 
 
@@ -285,4 +288,7 @@ CONTACT
 
 
 
+/****************
+CONTACT
+*****************/
 
