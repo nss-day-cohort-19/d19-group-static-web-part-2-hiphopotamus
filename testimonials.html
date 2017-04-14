@@ -10,7 +10,7 @@
 		<div class="topnav">
 		  <a class="active" href="index.html">Home</a>
 		  <a href="product.html">Products</a>
-		  <a href="contact.html">Contact</a>
+		  <a id ="show-form" href="#">Contact</a>
 		  <a href="about.html">About</a>
 		  <a href="#">Testimonials</a>
 		</div>
@@ -63,7 +63,32 @@
 	                    </div>
 	              </form>
 			</div>
-		<script src="javascripts/contact.js"></script>
+
+			<div id="contact-form" class="hide">
+                <form>
+                    <div class="form-css">
+                    <h2>Contact Us</h2>
+                        <h5>Why would you like to contact us?</h5>
+                        <select>
+                            <option>Interested in Buying</option>
+                            <option>Interested in Financing</option>
+                            <option>Interested in Chartering</option>
+                            <option>Interested in Partying</option>
+                        </select>
+                        <h5>Name:</h5>
+                        <input type="text" name="" value="" placeholder="Donald Drump III" required>
+                        <h5>Email Address:</h5>
+                        <input type="email" name="" value="" placeholder="d.drumpAwhitehouse.gov" required>
+                        <h5>Phone Number:</h5>
+                        <input type="tel" name="" value="" placeholder="111-222-3333" required>
+                        <h5>Comments or Questions:</h5>
+                        <textarea name=""></textarea>
+                        <br><br>
+                        <button id="clear-submit" type="button">Submit</button>
+                    </div>
+                </form>
+</div>
+	<script src="javascripts/contact.js"></script>
 	<script src="javascripts/main.js"></script>
 </body>
 </html>
