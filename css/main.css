@@ -204,7 +204,7 @@ HISTORY
     background-image: url("../images/history.jpg");
     background-size: cover;
     display: flex;
-    
+
     flex-wrap: wrap;
     justify-content: space-around;
 
@@ -217,7 +217,7 @@ HISTORY
 
 
 .middle {
-   
+
     background-color: white;
     opacity: 0.5;
     margin:2em 0;
@@ -226,11 +226,11 @@ HISTORY
 }
 
 .middle > h2{
-	padding: 0.5em 
+	padding: 0.5em
 }
 
 .middle > p{
-	padding: 0 1em 
+	padding: 0 1em
 }
 
 .history-footer{
@@ -257,12 +257,16 @@ header,  #middle {
 TESTIMONIALS
 *****************/
 
+#test_body {
+  background-image: url("../images/history.jpg");
+  height: 100vh;
+}
+
 .test_img {
   display: inline-block;
   border-radius: 3%;
   width: 225px;
   height: 200px;
-  float: left;
 }
 
 .test_quote {
@@ -270,6 +274,7 @@ TESTIMONIALS
   margin: auto;
   font-style: lighter;
   padding: 15px 15px;
+  color:white;
 }
 
 
