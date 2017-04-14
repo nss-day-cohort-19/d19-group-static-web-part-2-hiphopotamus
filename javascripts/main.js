@@ -54,9 +54,8 @@ var yachts = [
 	description: "There is accommodation for six guests in three cabins and for up to four crew in two cabins forward. The owner's stateroom has a large queen size bed, shower room, bidet and vanity, desk, spacious hanging lockers, good stowage and all was completely refurbished in 2007. The two guest cabins both have en suite shower and head facilities, built to the same high standard."
 	image:
 	price:"USD 4,979,000 (EUR 4,700,000)"
-},
-]
+}
+];
 
 var container = document.getElementById("container");
-
 
