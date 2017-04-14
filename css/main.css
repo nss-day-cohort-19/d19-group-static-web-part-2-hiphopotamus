@@ -143,8 +143,19 @@ HISTORY
 TESTIMONIALS
 *****************/
 
+#test_body {
+  background-color: #757575;
+}
 
+#test_title {
+  color: #494949;
+}
 
+article {
+  padding: 10px;
+  margin: auto;
+  color: #;
+}
 
 
 
