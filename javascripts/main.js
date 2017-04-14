@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 
 var yachts = [
 
@@ -76,11 +75,3 @@ for(potato in yachts){
 	console.log(cards);
 };
 
-
-
-
-
-
-
-=
->>>>>>> master
