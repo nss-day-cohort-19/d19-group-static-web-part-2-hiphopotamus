@@ -1,7 +1,9 @@
 /****************
 GLOBAL
 *****************/
-
+body {
+    margin: 0;
+}
 
 
 
@@ -38,6 +40,12 @@ PRODUCTS
 HISTORY
 *****************/
 
+#history-bg {
+    height: 100vh;
+    background-image: url("../images/history-bg.jpg");
+    background-size: cover;
+
+}
 
 
 
