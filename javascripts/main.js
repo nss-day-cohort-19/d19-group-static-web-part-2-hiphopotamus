@@ -62,16 +62,16 @@ var container = document.getElementById("container");
 
 
 for(potato in yachts){
-	var cards = `<section class="product-layout">
-                  <img class ="product-image" src="${yachts[potato].image}">
-                  <div class="product-info">
-  				          <h2 class="product-title">${yachts[potato].name}</h2>
-  				          <p>${yachts[potato].description}</p>
-  				          <p>${yachts[potato].price}</p>
-                  </div>
-				      </section>`;
+	var cards =
+    ` <section class="product-layout">
+        <img class ="product-image" src="${yachts[potato].image}">
+        <div class="product-info">
+  				<h2 class="product-title">${yachts[potato].name}</h2>
+  				<p class ="product-description">${yachts[potato].description}</p>
+  				<p class ="price">${yachts[potato].price}</p>
+        </div>
+			</section>`;
 
 	container.innerHTML += cards;
 	console.log(cards);
 };
-
