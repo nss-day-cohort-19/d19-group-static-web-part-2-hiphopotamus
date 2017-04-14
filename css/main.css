@@ -195,6 +195,50 @@ HISTORY
     border-radius: 20%;
 }
 
+#ocean-bg {
+    height: 100vh;
+    background-image: url("../images/ocean.jpeg");
+    background-size: cover;
+
+}
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+
+#content {
+    width: 290px;
+    float: left;
+    padding: 5px 15px;
+}
+
+.middle {
+    width: 294px; /* Account for margins + border values */
+    float: left;
+    padding: 5px 15px;
+    margin: 0px 15px 5px 15px;
+    background-color: white;
+    opacity: 0.5;
+}
+
+
+#sidebar {
+    width: 270px;
+    padding: 5px 15px;
+    float: left;
+}
+
+
+#content {
+    background: #f8f8f8;
+}
+#sidebar {
+    background: #f0efef;
+}
+header, #content, #middle, #sidebar {
+    margin-bottom: 5px;
+}
+
 
 
 
