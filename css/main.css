@@ -107,7 +107,6 @@ PRODUCTS
 
 
 
-
 .product-info{
   background-color: #fafafa;
   color: #494949;
@@ -138,19 +137,16 @@ PRODUCTS
 .product-description{
   padding-left: 2em;
   padding-right: 2em;
-  font-size: 1vw;
-
 }
 
 .product-title {
-  font-size: 2vw;
   padding-bottom: 1em;
   border-bottom: 1px solid #757575;
 }
 
 
 .price{
-  font-size: 3vw;
+  font-size: 3em;
   border-top: 1px solid #757575;
   padding-top: 1em;
 }
@@ -161,20 +157,41 @@ PRODUCTS
 /****************
 HISTORY
 *****************/
-
-
-
+#history-bg {
+    height: 100vh;
+    background-image: url("../images/history-bg.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .hide {
     display: none;
 }
 .un-hide{
     display: all;
 }
+#show-form {
+  background: #757575;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 2.5em;
+  text-decoration: none;
+  opacity: .45;
+  border: none;
+  border-radius: 20%;
+}
+
+#show-form:hover {
+  background: #a4a4a4;
+  text-decoration: none;
+  border: none;
+}
 
 .form-css {
     display: flex;
-    /*flex-direction: column;*/
-    opacity: .9;
+    flex-direction: column;
+    opacity: .6;
     background-color: #a4a4a4;
     color: #000000;
     padding: 2em 10em;
@@ -187,7 +204,7 @@ HISTORY
     background-image: url("../images/history.jpg");
     background-size: cover;
     display: flex;
-    flex-direction: row;
+    
     flex-wrap: wrap;
     justify-content: space-around;
 
@@ -199,7 +216,7 @@ HISTORY
 
 
 .middle {
-
+   
     background-color: white;
     opacity: 0.5;
     margin:2em 0;
@@ -208,11 +225,11 @@ HISTORY
 }
 
 .middle > h2{
-	padding: 0.5em
+	padding: 0.5em 
 }
 
 .middle > p{
-	padding: 0 1em
+	padding: 0 1em 
 }
 
 .history-footer{
@@ -238,61 +255,24 @@ header,  #middle {
 /****************
 TESTIMONIALS
 *****************/
-
-#ocean-bg{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-
-#test_body {
-  background-image: url("../images/history.jpg");
-  height: 100vh;
+.test_body {
+  background-image: : url("history-bg.jpg");
 }
 
 .test_img {
-  display: inline-block;
+  position: center;
   border-radius: 3%;
   width: 225px;
   height: 200px;
+  box-shadow: 10px 10px 8px #a4a4a4a4;
 }
 
 .test_quote {
   font-size: .75em;
   margin: auto;
   font-style: lighter;
-  padding: 15px 15px;
-  color:white;
+  padding-top: 15px;
 }
-
-
-/****************
-CONTACT
-*****************/
-
-#contact-form{
-  position: fixed;
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%, -25%);
-  width: 600px;
-  max-width: 100%;
-  height: 400px;
-  max-height: 100%;
-  z-index: 1010;
-}
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -303,4 +283,3 @@ CONTACT
 /****************
 CONTACT
 *****************/
-
