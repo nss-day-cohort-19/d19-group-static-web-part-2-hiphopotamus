@@ -173,7 +173,7 @@ HISTORY
 
 .form-css {
     display: flex;
-    /*flex-direction: column;*/
+    flex-direction: column;
     opacity: .9;
     background-color: #a4a4a4;
     color: #000000;
