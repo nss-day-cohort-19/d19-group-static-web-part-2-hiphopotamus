@@ -191,7 +191,11 @@ HISTORY
 .form-css {
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     opacity: .6;
+=======
+    opacity: .9;
+>>>>>>> master
     background-color: #a4a4a4;
     color: #000000;
     padding: 2em 10em;

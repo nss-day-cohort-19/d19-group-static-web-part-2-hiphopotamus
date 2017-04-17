@@ -4,13 +4,13 @@ var yachts = [
 
 {
 	name:"Nauti Buoy",
-	description:"The 80 concept called for a light, fast, elegant and comfortable super yacht, taking the Cruiser/Racer concept to the next level. Speed, seaworthiness, technology and innovation without compromise. Nauti Bouys advanced Regatta lay­up consists of Aramid hybrid fibre with matched vinylester resin. The main construction parameters are weight reduction for speed, increase of strength for seaworthiness and reduction of noise and vibration for smooth and comfortable sailing. Nauti Buoy’s condition can quite simply be summed up in one word - stunning. She has been continually maintained and cherished her throughout her life by professional crew for very discerning owners. She has also had the benefit of numerous upgrades during construction and post building. These upgrades have been made with full consultation with the factory.",
+	description:"The 80 concept called for a light, fast, elegant and comfortable super yacht, taking the Cruiser/Racer concept to the next level. Speed, seaworthiness, technology and innovation without compromise. Nauti Bouys advanced Regatta layup consists of Aramid hybrid fibre with matched vinylester resin. The main construction parameters are weight reduction for speed, increase of strength for seaworthiness and reduction of noise and vibration for smooth and comfortable sailing. Nauti Buoy's condition can quite simply be summed up in one word - stunning. She has been continually maintained and cherished her throughout her life by professional crew for very discerning owners. She has also had the benefit of numerous upgrades during construction and post building. These upgrades have been made with full consultation with the factory.",
 	image: "images/yacht1.jpg",
 	price:"USD 39,900,000 (EUR 37,688,000)",
 },
 {
 	name:"Aquaholic",
-	description: "The Aquaholic Jet Yacht is the absolute finest in Italian craftsmanship, elegance, and prestige. Dubbed the 'Ferrari of the Ocean', she is a timeless beauty equipped with state­of­the­art technology, discerning luxury and, to quote one South Florida newscaster she is the definition of sexy.",
+	description: "The Aquaholic Jet Yacht is the absolute finest in Italian craftsmanship, elegance, and prestige. Dubbed the 'Ferrari of the Ocean', she is a timeless beauty equipped with state of the art technology, discerning luxury and, to quote one South Florida newscaster she is the definition of sexy.",
 	image: "images/yacht2.jpg",
 	price:"USD 27,489,000 (EUR 25,950,000)",
 },
@@ -22,7 +22,7 @@ var yachts = [
 },
 {
 	name:"Dock Holiday",
-	description: "Designed for warm weather use and ideal for prime anchorage spots and islands proximity, Dock Holiday is a must have for the fun­loving owner. It is ideal for families with children or adults who entertain for pleasure and business. Dock Holiday boasts distinctive and unique spaces designed for the multi­use owner which can be turned from full sun to shaded areas in minutes. The Portuguese bow allows for both sunbathing and a covered dining experience for ten. The flybridge is equipped with a driving helm station that also allows for private sunbathing which can also be converted into an entertaining and dining area. The aft deck converts from cocktail to dining with either shaded or open sunpads and can accommodate 15­20 people without feeling overcrowded. The extendable and submersible swim platform is an ideal gathering place for families with children and pets while the European Passarelle also doubles as a diving board.",
+	description: "Designed for warm weather use and ideal for prime anchorage spots and islands proximity, Dock Holiday is a must have for the fun loving owner. It is ideal for families with children or adults who entertain for pleasure and business. Dock Holiday boasts distinctive and unique spaces designed for the multi­use owner which can be turned from full sun to shaded areas in minutes. The Portuguese bow allows for both sunbathing and a covered dining experience for ten. The flybridge is equipped with a driving helm station that also allows for private sunbathing which can also be converted into an entertaining and dining area. The aft deck converts from cocktail to dining with either shaded or open sunpads and can accommodate 1520 people without feeling overcrowded. The extendable and submersible swim platform is an ideal gathering place for families with children and pets while the European Passarelle also doubles as a diving board.",
 	image:"images/yacht4.jpg",
 	price:"USD 25,953,000 (EUR 24,500,000",
 },
