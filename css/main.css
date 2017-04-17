@@ -267,6 +267,12 @@ TESTIMONIALS
   color:white;
 }
 
+.test_text {
+  background-color: #fff;
+  opacity: .9;
+  display: inline-flex;
+}
+
 
 /****************
 CONTACT
