@@ -245,13 +245,16 @@ TESTIMONIALS
   align-items: center;
   justify-content: center;
 }
+#ocean-bg article {
+  max-width: 80%;
+  opacity: .6;
+}
 
 
 #test_body {
   background-image: url("../images/history.jpg");
   height: 100vh;
 }
-
 .test_img {
   display: inline-block;
   border-radius: 3%;
@@ -271,6 +274,7 @@ TESTIMONIALS
   background-color: #fff;
   opacity: .9;
   display: inline-flex;
+  padding: 1em;
 }
 
 
