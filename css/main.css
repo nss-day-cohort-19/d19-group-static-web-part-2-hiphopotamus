@@ -275,7 +275,33 @@ TESTIMONIALS
   font-size: .75em;
   margin: auto;
   font-style: lighter;
-  padding-top: 15px;
+
+  padding: 15px 15px;
+  color:white;
+}
+
+.test_text {
+  background-color: #fff;
+  opacity: .9;
+  display: inline-flex;
+}
+
+
+/****************
+CONTACT
+*****************/
+
+#contact-form{
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  width: 600px;
+  max-width: 100%;
+  height: 400px;
+  max-height: 100%;
+  z-index: 1010;
+
 }
 
 
